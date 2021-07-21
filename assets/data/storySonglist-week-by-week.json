@@ -1,0 +1,54 @@
+{
+  "songs": [
+    ["tutorial selected","Tutorial"],
+    ["WEEK1 select", "Smooth", "Gossip","TeenSuicide"],
+    ["week2 select", "AdobeThrash", "Piconjos-School", "Trapped-In-Teh-6aym"], 
+  ],
+  "weekNames": [
+    "Afternoon Date!",
+    "Nene's Slumber Party!",
+    "Nothing, By Nobody",
+    "PICO",
+    "MOMMY MUST MURDER",
+    "RED SNOW",
+    "hating simulator ft. moawling"
+  ],
+  "characters": [
+    ["dad", "bf", "gf"],
+    ["pico", "bf", "gf"],
+    ["spooky", "bf", "gf"],
+    ["pico", "bf", "gf"],
+    ["mom", "bf", "gf"],
+    ["parents-christmas", "bf", "gf"],
+    ["senpai", "bf", "gf"]
+  ],
+  "weeks": [
+    {
+      "songs": ["Tutorial"],
+      "name": "Afternoon Date!",
+      "animation": "tutorial selected",
+      // bf and gf default to regular values,
+      // but for examples sake i include them here
+      "dad": "dad",
+      "bf": "bf",
+      "gf": "gf"
+    },
+    {
+      "songs": ["Smooth", "Gossip", "TeenSuicide"],
+      "name": "Nene's Slumber Party!",
+      "animation": "WEEK1 select",
+      "dad": "pico"
+    },
+    {
+      "songs": ["AdobeThrash", "Piconjos-School", "Trapped-In-Teh-6aym"],
+      "animation": "week2 select",
+      "name": "Nothing, By Nobody",
+      "dad": "spooky"
+    }
+
+  ],
+  // version 2 uses weeks one
+  // version 1 uses old system...
+  // i think version 2 is more intutive
+  "version": 2
+}
